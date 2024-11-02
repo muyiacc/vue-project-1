@@ -15,7 +15,7 @@ const routes = [
 const router = createRouter({
     // 设置路由模式
     history: createWebHashHistory(),
-    // 设置路由
+    // 设置路由，同名，后面不用写
     routes,
 })
 
